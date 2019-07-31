@@ -1,0 +1,36 @@
+#Stephanie George
+#GEOG682 Final
+#August 4, 2019
+
+#loading all three datasets
+import processing
+crime = "E:/682Final/Crime_Incidents_in_2017.shp"
+iface.addVectorLayer(crime, "Crime", "ogr")
+wards = "E:/682Final/Ward_from_2012.shp"
+iface.addVectorLayer(wards, "Wards", "ogr") 
+shots = "E:/682Final/Shot_Spotter_Gun_Shots.shp"
+iface.addVectorLayer(shots, "Shots", "ogr") 
+
+#calculating gun crimes per 10000 people
+DCwards = "E:/682Final/Ward_from_2012.shp"
+vlayer = iface.addVectorLayer(DCwards, "DCWards", "ogr")
+iface.showAttributeTable(vlayer)
+for field in vlayer.fields(): print(field.name())
+for feature in vlayer.getFeatures(): 
+ print(feature["POPULATION"]) #this field contains each ward population divided by 10000
+for feature in vlayer.getFeatures(): 
+ print(feature["Total_GC"]) #total gun crimes
+for feature in vlayer.getFeatures():
+ print(feature["Total_GC"] / feature["POPULATION"])
+
+#Calculating shots per 10000 people
+DCwards = "E:/682Final/Ward_from_2012.shp"
+vlayer = iface.addVectorLayer(DCwards, "DCWards", "ogr")
+iface.showAttributeTable(vlayer)
+for field in vlayer.fields(): print(field.name())
+for feature in vlayer.getFeatures(): 
+ print(feature["POPULATION"])
+for feature in vlayer.getFeatures(): 
+ print(feature["Total_Shots"])
+for feature in vlayer.getFeatures():
+ print(feature["Total_Shots"] / feature["POPULATION"])
