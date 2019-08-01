@@ -21,20 +21,29 @@ Two choropleth maps were made using the above three datasets. The first thematic
 AUTOMATION
 
 In addition to manually analyzing ShotSpotter data using QGIS, python was also utilized to automatically import the datasets and calculate crimes and shooting incidents per 10,000 people. In order to import all three datasets, the following code was used:
-import processing
+
+                      import processing
                       crime = "E:/682Final/Crime_Incidents_in_2017.shp"
                       iface.addVectorLayer(crime, "Crime", "ogr")
+                      
 The first line of coding imports QGIS processing tools so that a shapefile may be saved as a new variable in the second line. The iface.addVectorLayer function adds the newly saved shapefile to the map. The second and third lines were repeated for the other two datasets, election wards and shots detected. All three datasets were saved and displayed on QGIS.
 
+
 To automatically calculate gun crimes per 10,000, the previous code was recycled to save and display the dataset with three new fields added to the attribute table. 
+
                       iface.showAttributeTable(vlayer)
                       for field in vlayer.fields(): print(field.name())
+                      
 By using the iface.showAttributeTable function, the layer’s attribute table is able to be opened automatically. To get a list of the attribute names printed to the console, we can go through the layer’s fields provided by the feature() function. The second line of code can be read as: For each field in the vector layer’s fields, print the field name. Similarly, the attribute value of the layer’s features may be printed using the getFeatures() function:
+
                       for feature in vlayer.getFeatures(): 
                           print(feature["POPULATION"])
+                          
 Finally, the two lines of code above can be tweaked to divide two fields in the attribute table together as such:
+
                       for feature in vlayer.getFeatures():
                           print(feature["Total_GC"] / feature["POPULATION"])
+
 The results of this calculation will be printed to the console. 
 
 
