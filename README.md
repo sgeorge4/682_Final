@@ -17,6 +17,7 @@ Gathered from Open Data DC, a website housing hundreds of datasets provided by t
 dataset provides coverage for most of DC. The Shot Spotter gunshot detection system is described as an "acoustic surveillance technology that uses sensors to detect, locate and alert law enforcement agencies of potential gunfire incidents in real time" (https://opendata.dc.gov/datasets/shot-spotter-gun-shots). The next dataset used is the Ward from 2012 (https://opendata.dc.gov/datasets/ward-from-2012), a polygon layer representing the boundaries of DC's eight election wards, created as part of the DC Geographic Information System (DC GIS). Lastly, the Crime Incidents in 2017 (https://opendata.dc.gov/datasets/crime-incidents-in-2017) dataset contains a subset of locations and attributes of crime incidents reported in the ASAP (Analytical Services Application) crime report database by the DC Metropolitan Police Department (MPD). 
 Two choropleth maps were made using the above three datasets. The first thematic map, shown below, renders the Gun Crimes committed per 10,000 people across DC’s eight election wards. Combined 2011 and 2012 population data found in the attribute table of the Ward from 2012 dataset were used to determine Gun Crimes per 10,000 people.  
 
+![](GunCrimes_Map.jpg)
 
 AUTOMATION
 
@@ -45,5 +46,8 @@ Finally, the two lines of code above can be tweaked to divide two fields in the 
                           print(feature["Total_GC"] / feature["POPULATION"])
 
 The results of this calculation will be printed to the console. 
+
+
+
 
 
