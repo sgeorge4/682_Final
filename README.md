@@ -1,4 +1,4 @@
-[title]
+Identify Need: Gun Crimes and Shot Decection Within DC Election Wards
 
 Stephanie George
 
@@ -74,6 +74,15 @@ Finally, the two lines of code above can be tweaked to divide two fields in the 
 The results of this calculation will be printed to the console. 
 
 
+RESULTS
+
+While Ward 7 and Ward 8 should continue to be covered by an expanded gunshot detection network based on the historically high gun crime rates, Ward 5 and Ward 6 should also be covered due to the high shooting detections and relatively high gun crime. In addition, Ward 1 should be included. Not only does Ward 1 neighbor two of the lowest gun crime and shooting detection wards, Ward 2 and Ward 3, but the gun crime and shooting incident detection is unusually high for its location. 
+
+There are several limitations to this analysis.
+1. Classifications are assigned by ShotSpotter and represent their assessment of what kind of impulse noise occurred. There were several instances of single gunshot AND/OR firecracker detection in the Shot Spotter Gun Shots dataset. While firecrackers are illegal in DC, it can hardly be compared to an actual gunshot. By mistakenly detecting firecrackers for gunshots, the dataset will be skewed and incomplete.
+2. ShotSpotter does not provide coverage for the entire District of Columbia. While the pattern of gun crime and shot detect is very clear, it does not take the needs of other wards into account.
+3. Block locations for some crime points were not automatically assigned resulting in 0,0 for x,y coordinates resulting in inaccurate and incomplete data.
+4. ShotSpotter data may include duplicate incidents or unverified shots that may have occurred outside of official coverage areas. Again, this makes the data inaccurate.
 
 
 
