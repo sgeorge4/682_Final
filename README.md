@@ -19,22 +19,6 @@ Two choropleth maps were made using the above three datasets. The first thematic
 
 ![](GunCrimes_Map.jpg)
 
-![](Shots_Map.jpg)
-
-|Gun Crimes Per 10,000 People In Each Ward |
-| -------------------|---------------------|
-| Wards             :| Gun Crimes          |
-| ------------------:|---------------------|
-| 1                  | 14                  |
-| 2                  | 7                   |
-| 3                  | 3                   |
-| 4                  | 15                  |
-| 5                  | 33                  |
-| 6                  | 19                  |
-| 7                  | 5                   |
-| 8                  | 2                   |
-
-
 | Wards         | Crimes        |
 | ------------- |:-------------:| 
 | 1             | 14            | 
@@ -44,7 +28,21 @@ Two choropleth maps were made using the above three datasets. The first thematic
 | 5             | 33            |   
 | 6             | 19            |  
 | 7             | 57            |   
-| 8             | 52            |   
+| 8             | 52            |  
+
+
+![](Shots_Map.jpg)
+
+| Wards         | Shots         |
+| ------------- |:-------------:| 
+| 1             | 189           | 
+| 2             | 7             |   
+| 3             | <1            |   
+| 4             | 333           | 
+| 5             | 472           |   
+| 6             | 270           |  
+| 7             | 1323          |   
+| 8             | 1610          |   
 
 AUTOMATION
 
