@@ -20,7 +20,7 @@ Two choropleth maps were made using the above three datasets. The first thematic
 ![](GunCrimes_Map.jpg)
 
 | Wards         | Crimes        |
-| ------------- |:-------------:| 
+| :-----------: |:-------------:| 
 | 1             | 14            | 
 | 2             | 7             |   
 | 3             | 3             |   
@@ -34,7 +34,7 @@ Two choropleth maps were made using the above three datasets. The first thematic
 ![](Shots_Map.jpg)
 
 | Wards         | Shots         |
-| ------------- |:-------------:| 
+| :-----------: |:-------------:| 
 | 1             | 189           | 
 | 2             | 7             |   
 | 3             | <1            |   
