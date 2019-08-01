@@ -35,11 +35,16 @@ Two choropleth maps were made using the above three datasets. The first thematic
 | 8                  | 2                   |
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Wards         | Crimes        |
+| ------------- |:-------------:| 
+| 1             | 14            | 
+| 2             | 7             |   
+| 3             | 3             |   
+| 4             | 15            | 
+| 5             | 33            |   
+| 6             | 19            |  
+| 7             | 57            |   
+| 8             | 52            |   
 
 AUTOMATION
 
