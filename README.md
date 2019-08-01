@@ -18,6 +18,7 @@ dataset provides coverage for most of DC. The Shot Spotter gunshot detection sys
 Two choropleth maps were made using the above three datasets. The first thematic map, shown below, renders the Gun Crimes committed per 10,000 people across DC’s eight election wards. Combined 2011 and 2012 population data found in the attribute table of the Ward from 2012 dataset were used to determine Gun Crimes per 10,000 people.  
 
 ![](GunCrimes_Map.jpg)
+![](Shots_Map.jpg)
 
 AUTOMATION
 
