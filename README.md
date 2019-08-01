@@ -44,6 +44,7 @@ Two choropleth maps were made using the above three datasets. The first thematic
 | 7             | 1323          |   
 | 8             | 1610          |   
 
+
 AUTOMATION
 
 In addition to manually analyzing ShotSpotter data using QGIS, python was also utilized to automatically import the datasets and calculate crimes and shooting incidents per 10,000 people. In order to import all three datasets, the following code was used:
